@@ -72,30 +72,30 @@ def evaluation_cot(model_name, train_data_path, eval_data_path):
         final['id'] = sample["id"]
         final['question'] = sample["question"]
         final['choices'] = "\n".join([f"{choice}" for choice in sample["choices"]["text"]])
+
+        zeroshot_text_based_answer = zeroshot_text_based_answer.strip('\n').split('Answer:')
+        fewshot_text_based_answer = fewshot_text_based_answer.strip('\n').split('Answer:')
+        final['zeroshot_raw_output'] = zeroshot_text_based_answer
+        final['fewshot_raw_output'] = fewshot_text_based_answer
         final['gold_truth'] = sample['answerKey']
 
         # Zero shot results
-        zeroshot_text_based_answer = zeroshot_text_based_answer.strip('\n').split('Answer:')
-        final['zeroshot_prob_answer'] = zeroshot_prob_based_answer.strip()
         if(len(zeroshot_text_based_answer) > 1):
             final['zeroshot_text_answer'] = zeroshot_text_based_answer[1].split('.')[0].strip()
             final['zeroshot_reasoning'] = zeroshot_text_based_answer[0]
         else:
             final['zeroshot_text_answer'] = ""
             final['zeroshot_reasoning'] = zeroshot_text_based_answer[0]
+        final['zeroshot_prob_answer'] = zeroshot_prob_based_answer.strip()
 
         # Few shot results
-        fewshot_text_based_answer = fewshot_text_based_answer.strip('\n').split('Answer:')
-        final['fewshot_prob_answer'] = fewshot_prob_based_answer.strip()
         if(len(fewshot_text_based_answer) > 1):
             final['fewshot_text_answer'] = fewshot_text_based_answer[1].split('.')[0].strip()
             final['fewshot_reasoning'] = fewshot_text_based_answer[0]
         else:
             final['fewshot_text_answer'] = ""
             final['fewshot_reasoning'] = fewshot_text_based_answer[0]
-
-        final['zeroshot_raw_output'] = zeroshot_text_based_answer
-        final['fewshot_raw_output'] = fewshot_text_based_answer
+        final['fewshot_prob_answer'] = fewshot_prob_based_answer.strip()
 
         final_list.append(final)
 

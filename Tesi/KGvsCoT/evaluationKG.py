@@ -78,14 +78,19 @@ def evaluation_kg(model_name, train_data_path, eval_data_path):
         final['id'] = sample["id"]
         final['question'] = sample["question"]
         final['choices'] = "\n".join([f"{choice}" for choice in sample["choices"]["text"]])
+        final['zeroshot_raw_output'] = zeroshot_text_based_answer
+        final['fewshot_raw_output'] = fewshot_text_based_answer
         final['gold_truth'] = sample['answerKey']
         final['zeroshot_text_answer'] = zeroshot_text_based_answer.strip()
         final['zeroshot_prob_answer'] = zeroshot_prob_based_answer.strip()
-        final['fewshot_text'] = fewshot_text_based_answer.strip()
+        ft_answer = fewshot_text_based_answer.split(':') # When output is 'Answer: C' rather than 'C' only
+        if(len(ft_answer) > 1):
+            final['fewshot_text'] = ft_answer[1]
+        else:
+            final['fewshot_text'] = ft_answer[0]
         final['fewshot_prob'] = fewshot_prob_based_answer.strip()
         final['statements'] = "\n".join([f"{statement}" for statement in sample['statements']])
-        final['zeroshot_raw_output'] = zeroshot_text_based_answer
-        final['fewshot_raw_output'] = fewshot_text_based_answer
+        
 
         final_list.append(final)
 

@@ -21,10 +21,14 @@ def generate_text(model,
     inputs = tokenizer.apply_chat_template(messages, return_tensors="pt").to(device)
 
     # Truncate depending on model used
-    if model_name.split('/')[0] == "meta-llama":
-      inputs = inputs[:, :-1]
-    elif model_name.split('/')[0] == "Qwen":
+    if model_name == "meta-llama/Llama-3.2-3B-Instruct":
+        inputs = inputs[:, :-1]
+    elif model_name == "meta-llama/Llama-3.1-8B-Instruct":
+        inputs = inputs[:, :-1]
+    elif model_name == "Qwen/Qwen2.5-1.5B-Instruct":
         inputs = inputs[:, :-2]
+    elif model_name == "Qwen/Qwen2.5-7B-Instruct":
+        inputs = inputs[:, :-1]
     else:
         inputs = inputs[:, :-1]
 
