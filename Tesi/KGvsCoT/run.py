@@ -54,7 +54,7 @@ for model_name in model_list:
     full_metrics.append(model_metrics)
     
 # Write metrics
-with open(f"Tesi/KGvsCoT/metrics.tsv", mode="w", newline="", encoding="utf-8") as file:
+with open(f"Tesi/KGvsCoT/output/metrics.tsv", mode="w", newline="", encoding="utf-8") as file:
     # Create a DictWriter with keys as fieldnames
     tsv_writer = csv.DictWriter(file, fieldnames=full_metrics[0].keys(), delimiter="\t")
     # Write the header (keys)

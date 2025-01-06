@@ -2,10 +2,9 @@ import torch
 def generate_text(model,
                   tokenizer,
                   prompt,
-                  labels=[],
+                  model_name,
                   max_new_tokens=512,
                   system=True,
-                  truncate=True,
                   device=torch.device("cuda" if torch.cuda.is_available() else "cpu")):
     messages = []
 
@@ -20,8 +19,15 @@ def generate_text(model,
             messages.append({"role": "assistant", "content": turn})
 
     inputs = tokenizer.apply_chat_template(messages, return_tensors="pt").to(device)
-    if truncate:
-      inputs = inputs[:, :-2] # TODO replace with handler function
+
+    # Truncate depending on model used
+    if model_name.split('/')[0] == "meta-llama":
+      inputs = inputs[:, :-1]
+    elif model_name.split('/')[0] == "Qwen":
+        inputs = inputs[:, :-2]
+    else:
+        inputs = inputs[:, :-1]
+
 
     # Create the attention mask.
     attention_mask = torch.ones_like(inputs).to(device)
@@ -56,9 +62,9 @@ def generate_text(model,
 def get_answers(model,
                 tokenizer,
                 prompt,
+                model_name,
                 max_new_tokens=512,
                 system=True,
-                truncate=True,
                 device=torch.device("cuda" if torch.cuda.is_available() else "cpu")):
     # Generate alternative labels with whitespaces in front.
     labels = ['A', 'B', 'C', 'D', 'E']
@@ -69,9 +75,9 @@ def get_answers(model,
         model=model,
         tokenizer=tokenizer,
         prompt=prompt,
+        model_name=model_name,
         max_new_tokens=max_new_tokens,
         system=system,
-        truncate=truncate,
         device=device
     )
 

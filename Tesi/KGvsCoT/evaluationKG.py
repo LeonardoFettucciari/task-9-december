@@ -65,8 +65,8 @@ def evaluation_kg(model_name, train_data_path, eval_data_path):
         fewshot_prompt = prepare_fewshot_prompt_kg(sample, train_data_csv)
 
         # Generate answers
-        zeroshot_text_based_answer, zeroshot_prob_based_answer = get_answers(model, tokenizer, zeroshot_prompt)
-        fewshot_text_based_answer, fewshot_prob_based_answer = get_answers(model, tokenizer, fewshot_prompt)
+        zeroshot_text_based_answer, zeroshot_prob_based_answer = get_answers(model, tokenizer, zeroshot_prompt, model_name)
+        fewshot_text_based_answer, fewshot_prob_based_answer = get_answers(model, tokenizer, fewshot_prompt, model_name)
 
         # Append answers
         answers_zeroshot_text_based.append(zeroshot_text_based_answer)
@@ -90,7 +90,7 @@ def evaluation_kg(model_name, train_data_path, eval_data_path):
         final_list.append(final)
 
     # Save output
-    with open(f"Tesi/KGvsCoT/{model_name.split('/')[1]}_KG.tsv", mode="w", newline="", encoding="utf-8") as file:
+    with open(f"Tesi/KGvsCoT/output/{model_name.split('/')[1]}_KG.tsv", mode="w", newline="", encoding="utf-8") as file:
         tsv_writer = csv.DictWriter(file, fieldnames=final_list[0].keys(), delimiter="\t")
         tsv_writer.writeheader()
         tsv_writer.writerows(final_list)
