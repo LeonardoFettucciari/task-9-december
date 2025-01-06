@@ -82,20 +82,20 @@ def evaluation_cot(model_name, train_data_path, eval_data_path):
         # Zero shot results
         if(len(zeroshot_text_based_answer) > 1):
             final['zeroshot_text_answer'] = zeroshot_text_based_answer[1].split('.')[0].strip()
-            final['zeroshot_reasoning'] = zeroshot_text_based_answer[0]
         else:
             final['zeroshot_text_answer'] = ""
-            final['zeroshot_reasoning'] = zeroshot_text_based_answer[0]
         final['zeroshot_prob_answer'] = zeroshot_prob_based_answer.strip()
 
         # Few shot results
         if(len(fewshot_text_based_answer) > 1):
             final['fewshot_text_answer'] = fewshot_text_based_answer[1].split('.')[0].strip()
-            final['fewshot_reasoning'] = fewshot_text_based_answer[0]
         else:
             final['fewshot_text_answer'] = ""
-            final['fewshot_reasoning'] = fewshot_text_based_answer[0]
         final['fewshot_prob_answer'] = fewshot_prob_based_answer.strip()
+
+        # Reasoning
+        final['zeroshot_reasoning'] = zeroshot_text_based_answer[0]
+        final['fewshot_reasoning'] = fewshot_text_based_answer[0]
 
         final_list.append(final)
 

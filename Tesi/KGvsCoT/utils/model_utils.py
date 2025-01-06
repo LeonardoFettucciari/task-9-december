@@ -28,7 +28,7 @@ def generate_text(model,
     elif model_name == "Qwen/Qwen2.5-1.5B-Instruct":
         inputs = inputs[:, :-2]
     elif model_name == "Qwen/Qwen2.5-7B-Instruct":
-        inputs = inputs[:, :-1]
+        inputs = inputs[:, :-2]
     else:
         inputs = inputs[:, :-1]
 
