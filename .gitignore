@@ -12,6 +12,7 @@ snap/
 .bashrc
 .profile
 .wget-hsts
+.gitconfig
 
 # Subfolders
 **/__pycache__/
