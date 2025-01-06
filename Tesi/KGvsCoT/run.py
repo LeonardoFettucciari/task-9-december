@@ -1,6 +1,7 @@
 import os
 # Redirect caching
 os.environ["HF_HOME"] = "/media/ssd/leonardofettucciari/cache1"
+from dotenv import load_dotenv
 import transformers
 import torch
 import csv
@@ -12,7 +13,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Authentication for gated models e.g. LLama
-hf_token = "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"
+load_dotenv()  # Load environment variables from .env file
+hf_token = os.getenv("HF_TOKEN")
 login(hf_token)
 
 model_list = ["meta-llama/Llama-3.2-3B-Instruct",
