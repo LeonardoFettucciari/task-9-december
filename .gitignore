@@ -1,0 +1,20 @@
+# Directories
+.cache/
+.config/
+.nv/
+.venv/
+.vscode-server/
+snap/
+
+# Files
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.wget-hsts
+
+# Subfolders
+**/__pycache__/
+
+
+

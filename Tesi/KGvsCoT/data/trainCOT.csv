@@ -1,0 +1,26 @@
+question_id,question,choices,answerKey,reasoning
+75ca0cb4e5e4ff188fcf7aa2c8af58fb,"To learn must have the right book, to work efficiently what must one have?","Improve Yourself
+Become Knowledgeable
+Have Tools
+Persistence
+Have More Knowledge",C,"Let's reason step-by-step.  We are provided with an example before the real question. To learn, one must have the right book. Then we are asked what one must have to work efficiently. To 'become knowledgeable' or to 'have more knowledge' imply that knowledge is required to work efficiently: this is generally true since knowledge may suggest efficient ways to work. Similarly to 'improve yourself' suggests that improvement makes one work efficiently: this is again a generelly true statement. 'Persistence' is again not a wrong choice, since being continuos on tasks leads to consistent and better results. To 'have tools' is not only a valid choice but it is also linked to the fact that working usually requires tools to carry out the work in an easier way."
+29e5bc8830b4672bb2f7e617c6f5d9eb,"If a person spends a lot of time hitting the bottle, what might he have?","Passing Out
+Fist
+Breaking
+Ticket
+Alcoholism",E,"Let's reason step-by-step.  'Hitting the bottle' may be interpreted in two ways. In the first case it means to physically hit the bottle. In this setting 'breaking' suggests that the bottle may break after several hits which makes sense assuming the bottle is made of a fragile material like glass. 'Fist' instead suggests what the person might physically have, a fist, likely used to hit the bottle. In the second case it means to drink alcohol and it is the most likely one. In this case 'passing out' may be an indirect consequence of drinking too much all at once. 'Alcoholism' is an addiction for when one cannot stop the habit of drinking alcohol, which directly explains why one would hit the bottle a lof of times. 'Ticket' may be associated to the fact that after drinking one may get drunk and commit actions that would get them a ticket i.e. violent or trespassing actions. However this may be an indirect consequence of hitting the bottle."
+07cc01a6cdab0cbc317a99703db51d78,What does an actor in a musical do?,"Branch Out
+Vocals
+Pretend
+Wear Costume
+Sing Songs",E,"Let's reason step-by-step.  To 'branch out' means to do something out of your comfort zone, but this does not make much sense with a musical actor. 'Vocals' makes sense in the setting of a musical, since a musical contains songs actors would likely do vocals. As the person is an actor, they may 'wear a costume' since at theaters that is usually done to interpret characters, however this is generally true for actors, nor for actors in musicals. The same reasoning applies to 'pretend', which is something an actor does not only actors in musicals. Instead to 'sing songs' is a specific task of an actor in a musical, which is indeed a theatrical show with songs."
+b28fc3c06b25805bc7f954a82056e4df,Where would you put scissors if you will need to use them in another building soon?,"Haversack
+Desk
+Cabinet
+Backpack
+House",D,"Let's reason step-by-step.  'Haversack' is a bag that can carry items, so it is a valid option. 'desk' is a static object so it cannot help in carrying items like scissors somewhere else. 'cabinet' is again a static object, so it is not a valid option. 'House' is again a static place, so it cannot be used to carry objects somewhere else. 'backpack' is a bag so it can be used to carry items in another building, it is a valid option. Moreover is is more frequent to have a backpack rather than a haversack."
+0144777178b1629bcbb677511a89641d,They had so much fun that afternoon that it seemed like it had become what in a blink of the eye?,"Before Noon
+Morning
+Christmas
+Before Lunch
+Evening",E,"Let's reason step-by-step. The question tells of people having so much fun in the afternoon that they thought something happened in a really fast way than usual. Having fun is usually associated with the fast passing of time. Since they had fun in the afternoon, what comes after the afternoon may have happened in a really fast way. In such case 'evening' makes sense since it comes after afternoon. While 'morning', 'before noon', 'before lunch' all come before afternoon so they don't make sense here. 'Christmas' is not completely wrong since with the passing of time, eventually Christmas may come, but the question seems to suggest the scope of a single day, hence 'evening' is more likely than 'christmas'."
