@@ -90,8 +90,8 @@ SYSTEM_ZERO_SHOT_COT = '''
 You are an expert in commonsense question answering. \
 Given a question, along with its choices, \
 provide the reasoning process necessary to answer the question \
-and then provide only the label of the correct answer. \
-For the label, use the format 'Answer: <label>'. \
+and then provide only the label of the correct answer in the format \
+Answer: <label of the correct answer>. \
 '''
 
 SYSTEM_FEW_SHOT = '''
@@ -110,5 +110,6 @@ SYSTEM_FEW_SHOT_COT = '''
 You are an expert in commonsense question answering. \
 Given a question, along with its choices, \
 provide the reasoning process necessary to answer the question \
-and then provide only the label of the correct answer. \
+and then provide only the label of the correct answer in the format \
+Answer: <label of the correct answer>. \
 '''

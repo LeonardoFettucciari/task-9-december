@@ -1,4 +1,5 @@
 import torch
+import re
 def generate_text(model,
                   tokenizer,
                   prompt,
@@ -104,4 +105,20 @@ def get_answers(model,
 
     return raw_generated_answer, answer
 
+def parse_answer_cot(raw_answer):
+    # Pattern to capture the reasoning text
+    reasoning_pattern = r'(.*?)(?=\nAnswer:)'
+
+    # Pattern to capture the answer label
+    answer_pattern = r'Answer:\s*([A-Z])'
+
+    # Extracting the reasoning text
+    reasoning_match = re.search(reasoning_pattern, raw_answer, re.DOTALL)
+    reasoning_text = reasoning_match.group(1).strip() if reasoning_match else ""
+
+    # Extracting the answer label
+    answer_match = re.search(answer_pattern, raw_answer, re.MULTILINE)
+    answer_label = answer_match.group(1) if answer_match else ""
+
+    return reasoning_text, answer_label
     
