@@ -71,7 +71,7 @@ question_id,question,choices,answerKey,statements,isRelevant
 ,,,,"Floors can sometimes be slippery, especially when wet, so it's important to be cautious to avoid slipping.",
 ,,concert hall,,"A concert hall is a venue designed specifically for musical performances, typically featuring acoustics that enhance sound quality.",
 ,,,,"Concert halls often host classical music performances, such as orchestras, choirs, and soloists.",
-,,,,The seating in a concert hall is arranged to provide optimal views and sound for the audience.,TRUE
+,,,,The seating in a concert hall is arranged to provide optimal views and sound for the audience.,
 ,,,,"Many concert halls have a grand stage where musicians, conductors, and performers are positioned during the show.",
 ,,,,The acoustics in a concert hall are carefully designed to ensure that the music sounds clear and balanced throughout the space.,
 ,,,,People attending a concert at a concert hall usually sit quietly and listen attentively to the music.,
@@ -194,7 +194,7 @@ f74b7f268d3c190a13f99ede6d2359e1,"The advertisement came in the form of a pop-up
 ,,,,Emails are commonly used for both professional and personal communication.,
 ,,,,"Most emails contain a subject line, which gives an idea of the message's content.",
 ,,,,"Email attachments allow you to send files such as documents, pictures, or videos.",
-,,,,"Spam emails are unwanted messages, often related to advertisements or scams.",TRUE
+,,,,"Spam emails are unwanted messages, often related to advertisements or scams.",
 ,,,,"Many people use email to stay in touch with friends, family, and colleagues.",
 ,,,,"Emails can be formal or informal, depending on the context and recipient.",
 ,,,,You might use email to apply for jobs or send resumes.,
@@ -254,7 +254,7 @@ f74b7f268d3c190a13f99ede6d2359e1,"The advertisement came in the form of a pop-up
 ,,,,"They are often found in offices, homes, or businesses where paperwork needs to be stored securely and accessibly.",
 ,,,,"File cabinets come in different sizes, with options for one, two, or more drawers.",
 ,,,,The drawers of a file cabinet can be locked to prevent unauthorized access to sensitive or confidential information.,
-,,,,"People use file cabinets to store tax records, contracts, employee files, and other important documents.",TRUE
+,,,,"People use file cabinets to store tax records, contracts, employee files, and other important documents.",
 ,,,,"File cabinets are often made of metal or wood, with metal being the more common choice for durability.",
 ,,,,"Filing systems in cabinets are often organized alphabetically, by date, or by category, depending on the user’s preference.",
 ,,,,"File cabinets can become heavy and cumbersome once filled with a lot of paperwork, requiring effort to move.",
@@ -309,7 +309,7 @@ f74b7f268d3c190a13f99ede6d2359e1,"The advertisement came in the form of a pop-up
 ,,,,"In many cultures, initiating a greeting is considered polite, such as saying ""hello"" first.",
 ,,,,"Sometimes, people initiate a complaint by expressing dissatisfaction with a service or product.",
 ,,,,"You might need permission to initiate certain actions, such as initiating a withdrawal from a bank account.",
-,,ignore,,Ignoring someone means not paying attention to them or their actions.,TRUE
+,,ignore,,Ignoring someone means not paying attention to them or their actions.,
 ,,,,"When you ignore a problem, it doesn't make the problem go away; it often gets worse.",
 ,,,,Ignoring someone in a conversation can make them feel unimportant or hurt.,
 ,,,,People often ignore distractions when they are focused on a task.,
@@ -339,7 +339,7 @@ f74b7f268d3c190a13f99ede6d2359e1,"The advertisement came in the form of a pop-up
 ,,,,"When someone asks for help, they are usually expecting an answer to guide them.",
 ,,,,"Some answers may be factual, while others might be opinions or suggestions.",
 ,,,,Providing the wrong answer can lead to confusion or further questions.,
-,,ask,,To ask is to seek information or clarification from someone.,TRUE
+,,ask,,To ask is to seek information or clarification from someone.,
 ,,,,People often ask questions when they are curious or need guidance.,
 ,,,,"Asking can be done verbally, in writing, or through gestures.",
 ,,,,"When you ask for something, you are requesting assistance or a specific item.",
@@ -352,11 +352,11 @@ f74b7f268d3c190a13f99ede6d2359e1,"The advertisement came in the form of a pop-up
 7bb87c6d8eab57d4e983f60025b1f0dc,What can eating hamburger cause immediately after eating it?,tasty,indigestion,Tasty refers to food or drink that has a pleasant or enjoyable flavor.,
 ,,,,"The taste of food can vary depending on ingredients, preparation, and seasoning.",
 ,,,,People often describe food as tasty when it pleases their taste buds.,
-,,,,A tasty meal can make people feel satisfied and happy.,TRUE
+,,,,A tasty meal can make people feel satisfied and happy.,
 ,,,,"Not everyone has the same taste, so what is tasty to one person might not be to another.",
-,,,,Tasty food often makes people want to eat more of it.,TRUE
+,,,,Tasty food often makes people want to eat more of it.,
 ,,,,"People might describe a dish as tasty if it has a balance of flavors, like sweet, salty, or spicy.",
-,,,,"Tasty food can sometimes be comforting or nostalgic, reminding people of home or childhood.",TRUE
+,,,,"Tasty food can sometimes be comforting or nostalgic, reminding people of home or childhood.",
 ,,,,A food's texture and aroma can contribute to its tastiness.,
 ,,,,"The term ""tasty"" is often used to compliment a dish or a cook's skill.",
 ,,health problems,,Health problems can range from mild discomfort to severe conditions that require medical attention.,
@@ -390,7 +390,7 @@ f74b7f268d3c190a13f99ede6d2359e1,"The advertisement came in the form of a pop-up
 ,,,,People often take antacids or other medications to relieve indigestion symptoms.,
 ,,,,"Indigestion may be temporary, but frequent or severe cases could indicate a more serious condition, like acid reflux.",
 ,,gain weight,,Gaining weight typically occurs when you consume more calories than your body burns.,
-,,,,"Eating high-calorie foods, like fast food or sweets, can contribute to weight gain.",TRUE
+,,,,"Eating high-calorie foods, like fast food or sweets, can contribute to weight gain.",
 ,,,,"A sedentary lifestyle, where you don't exercise much, can lead to weight gain over time.",
 ,,,,Stress and emotional eating can sometimes cause people to gain weight.,
 ,,,,"Weight gain may happen gradually or quickly, depending on a person’s diet and activity level.",
@@ -421,7 +421,7 @@ f74b7f268d3c190a13f99ede6d2359e1,"The advertisement came in the form of a pop-up
 ,,,,The smell of freshly baked bread is often considered inviting and comforting.,
 ,,have lunch,,"Lunch is typically eaten in the middle of the day, between breakfast and dinner.",
 ,,,,"A variety of foods, such as sandwiches, salads, or hot dishes, can be eaten for lunch.",
-,,,,"People usually have lunch at work, school, or home, depending on their schedule.",TRUE
+,,,,"People usually have lunch at work, school, or home, depending on their schedule.",
 ,,,,"Lunch can be a quick meal or a more leisurely one, depending on available time.",
 ,,,,"Some people prefer to eat lunch with others, while others might eat alone.",
 ,,,,"It’s common to drink a beverage like water, juice, or soda with lunch.",
@@ -442,7 +442,7 @@ f74b7f268d3c190a13f99ede6d2359e1,"The advertisement came in the form of a pop-up
 ,,friends house,,"When visiting a friend’s house, it’s polite to knock or ring the doorbell before entering.",
 ,,,,"You may bring a gift or something to share, like snacks, as a kind gesture when visiting.",
 ,,,,"At a friend’s house, it’s common to chat and catch up on each other's lives.",
-,,,,Friends often offer drinks or food when you arrive at their house.,TRUE
+,,,,Friends often offer drinks or food when you arrive at their house.,
 ,,,,"You might be asked to take off your shoes when entering a friend's home, depending on their household rules.",
 ,,,,"A friend’s house is a place where you can relax, hang out, and have fun together.",
 ,,,,It’s important to respect the privacy and personal space of your friend when in their home.,
@@ -505,7 +505,7 @@ d0bda97a087904320216e4d0b8a08a8d,"The man was giving assistance to a pan handler
 ,,,,"Physical well-being, such as being healthy or well-rested, plays a key role in feeling good.",
 ,,,,Socializing with friends and family can often make people feel good.,
 ,,,,"Engaging in activities you enjoy, like hobbies or exercise, can improve how you feel.",
-,,,,Eating nourishing food or enjoying a favorite meal can contribute to feeling good.,TRUE
+,,,,Eating nourishing food or enjoying a favorite meal can contribute to feeling good.,
 ,,,,Feeling good is often linked to being free from stress or worry.,
 ,,,,Acts of kindness or helping others can create a sense of well-being and feeling good.,
 ,,,,"A positive environment, such as being in nature or in a pleasant setting, can make people feel good.",
@@ -539,13 +539,13 @@ d0bda97a087904320216e4d0b8a08a8d,"The man was giving assistance to a pan handler
 ,,,,"If a person has limited insurance coverage, they might face significant out-of-pocket expenses for medical bills.",
 ,,,,"People sometimes set up savings accounts specifically for covering out-of-pocket costs, such as health care or car repairs.",
 ,,,,"For some people, being ""out of pocket"" means being unreachable or unavailable due to being busy or away from communication devices.",
-,,feel loved,,"Feeling loved often involves receiving affection, attention, and care from others.",TRUE
+,,feel loved,,"Feeling loved often involves receiving affection, attention, and care from others.",
 ,,,,"When you feel loved, you feel valued and appreciated by the people around you.",
-,,,,Words of encouragement and kind gestures can make someone feel loved.,TRUE
+,,,,Words of encouragement and kind gestures can make someone feel loved.,
 ,,,,Being supported during difficult times can make you feel loved and cared for.,
 ,,,,Feeling loved can strengthen relationships and create a sense of security.,
 ,,,,"Acts of service, like helping with tasks or offering assistance, can make you feel loved.",
-,,,,"Physical touch, like hugs or holding hands, can convey feelings of love and comfort.",TRUE
+,,,,"Physical touch, like hugs or holding hands, can convey feelings of love and comfort.",
 ,,,,Feeling loved can improve your emotional well-being and boost self-esteem.,
 ,,,,"A simple ""I love you"" from someone close to you can make you feel deeply loved.",
 ,,,,Feeling loved helps you feel less lonely and more connected to others.,
@@ -599,7 +599,7 @@ d0bda97a087904320216e4d0b8a08a8d,"The man was giving assistance to a pan handler
 ,,,,"Many big cities face challenges related to pollution, noise, and overcrowding.",
 ,,,,"The pace of life in big cities is often faster, with people leading busy, hectic lifestyles.",
 ,,,,"Big cities are often centers for innovation, with universities, tech companies, and research institutions driving progress and new developments.",
-e69da59cbcf2a302e4523571eba8186b,"The computer was difficult for he to understand at the store, so what did she sign up for to learn more?",classroom,demonstration,A classroom is a space where students gather to learn and interact with their teacher.,TRUE
+e69da59cbcf2a302e4523571eba8186b,"The computer was difficult for he to understand at the store, so what did she sign up for to learn more?",classroom,demonstration,A classroom is a space where students gather to learn and interact with their teacher.,
 ,,,,"Classrooms are usually equipped with desks, chairs, a blackboard or whiteboard, and educational materials.",
 ,,,,"Teachers lead lessons, give instructions, and facilitate discussions in the classroom.",
 ,,,,"Students in a classroom often sit in rows or groups, depending on the teaching style and activities.",
@@ -619,7 +619,7 @@ e69da59cbcf2a302e4523571eba8186b,"The computer was difficult for he to understan
 ,,,,"Facebook is accessible on both desktop computers and mobile devices, making it easy for users to stay connected anytime.",
 ,,,,The platform has faced criticism over data privacy concerns and its impact on mental health and privacy.,
 ,,,,"Facebook regularly updates its features, such as adding new ways to interact with friends, like through live videos or virtual reality tools.",
-,,school,,School is a place where children and young adults go to learn and receive an education.,TRUE
+,,school,,School is a place where children and young adults go to learn and receive an education.,
 ,,,,"Students typically attend school from early childhood through adolescence, often until they finish high school.",
 ,,,,"Teachers are responsible for educating students in various subjects like math, science, and language arts.",
 ,,,,"Schools usually have classrooms, libraries, and sports facilities for various activities.",
@@ -694,7 +694,7 @@ e69da59cbcf2a302e4523571eba8186b,"The computer was difficult for he to understan
 ,,,,The amount of press coverage a story gets often depends on its perceived importance or impact.,
 ,,,,Negative events or controversies tend to receive more press coverage than routine or positive occurrences.,
 ,,,,Press coverage can shape public opinion by highlighting certain aspects of a story while downplaying others.,
-,,,,Press coverage is essential for holding public figures and institutions accountable for their actions.,TRUE
+,,,,Press coverage is essential for holding public figures and institutions accountable for their actions.,
 ,,,,"During elections, press coverage plays a significant role in informing voters about candidates and policies.",
 ,,,,"Press coverage can be biased, with different outlets emphasizing different angles on the same event.",
 ,,,,Press coverage often includes both factual reporting and opinion pieces or editorials.,
@@ -734,7 +734,7 @@ e69da59cbcf2a302e4523571eba8186b,"The computer was difficult for he to understan
 ,,,,Most bookcases have shelves that can be adjusted to fit different sizes of books.,
 ,,,,"A bookcase is often placed in living rooms, offices, or libraries.",
 ,,,,"Books are typically arranged on a bookcase by genre, author, or size.",
-,,,,Some bookcases have doors to protect books from dust and damage.,TRUE
+,,,,Some bookcases have doors to protect books from dust and damage.,
 ,,,,"A bookcase can be heavy, especially when filled with books.",
 ,,,,Overloading a bookcase with too many books can cause it to become unstable.,
 ,,,,Bookcases are sometimes used to display decorative items like plants or photos.,
@@ -778,7 +778,7 @@ ede4d302fc2ffe07703158f83c1493f2,"If there is a place that is hot and arid, what
 ,,,,"Sand is not usually solid but loosely packed, which makes it easy to move around.",
 ,,,,Sandy beaches are popular destinations for vacations and outdoor activities like sunbathing and volleyball.,
 ,,,,Sand can be a nuisance when it gets inside your house after a trip to the beach.,
-,,,,Sandy soil is often less fertile than other types of soil due to its poor ability to retain water.,TRUE
+,,,,Sandy soil is often less fertile than other types of soil due to its poor ability to retain water.,
 ,,neutral,,"Neutral colors, like beige, gray, and white, are often used in interior design because they are calming and versatile.",
 ,,,,"In a debate or argument, someone who takes a neutral stance does not take sides in the conflict.",
 ,,,,A neutral response in a conversation is one that doesn't express strong emotions or opinions.,
@@ -820,7 +820,7 @@ ede4d302fc2ffe07703158f83c1493f2,"If there is a place that is hot and arid, what
 ,,,,"People often perform maintenance on their houses, like cleaning gutters or painting walls, to keep them in good condition.",
 ,,,,"The size and type of house can vary greatly depending on location, culture, and personal preferences.",
 ,,laboratory,,A laboratory is a place where scientific experiments are conducted.,
-,,,,Laboratories are often equipped with specialized tools like microscopes and test tubes.,TRUE
+,,,,Laboratories are often equipped with specialized tools like microscopes and test tubes.,
 ,,,,Researchers and scientists spend a lot of time in laboratories performing experiments.,
 ,,,,Laboratories must follow strict safety protocols to avoid accidents.,
 ,,,,"Chemicals are often used in laboratories, so proper storage and handling are important.",
@@ -878,7 +878,7 @@ ede4d302fc2ffe07703158f83c1493f2,"If there is a place that is hot and arid, what
 ,,,,Many people enjoy thrilling sports like bungee jumping or scuba diving for the excitement.,
 ,,,,A thrilling plot twist can completely change the direction of a story in a surprising way.,
 ,,,,A thrilling thunderstorm can be both awe-inspiring and a little frightening at the same time.,
-,,,,"Winning a close, competitive game can be a thrilling moment, filled with joy and relief.",TRUE
+,,,,"Winning a close, competitive game can be a thrilling moment, filled with joy and relief.",
 ,,made,,"Objects are made from materials like wood, metal, or plastic.",
 ,,,,Something can be made by hand or with the help of machines.,
 ,,,,"A product is often made to serve a specific purpose, like a chair being made to sit on.",
@@ -950,7 +950,7 @@ ede4d302fc2ffe07703158f83c1493f2,"If there is a place that is hot and arid, what
 ,,,,"Trust is crucial in any relationship, whether personal or professional.",
 ,,,,"During a crisis, having access to crucial resources like water and food is vital for survival.",
 a5097b7f56d20217679f28201801476f,Where do you head to travel to a star?,night sky,outer space,The night sky is typically dark because the sun is no longer shining directly on it.,
-,,,,"You can see stars in the night sky, but not all of them are visible depending on the time of year and location.",TRUE
+,,,,"You can see stars in the night sky, but not all of them are visible depending on the time of year and location.",
 ,,,,The moon is often visible in the night sky and changes phases over the course of a month.,
 ,,,,"The night sky can appear clearer in areas with less light pollution, such as rural areas or national parks.",
 ,,,,"On some nights, you might see shooting stars or meteors streaking across the sky.",
@@ -958,12 +958,12 @@ a5097b7f56d20217679f28201801476f,Where do you head to travel to a star?,night sk
 ,,,,The night sky is often used as a metaphor for mystery or calmness.,
 ,,,,"During the night, the sky can sometimes appear different colors, such as dark blue, black, or deep purple.",
 ,,,,"The Milky Way is a galaxy that can sometimes be seen as a faint, cloudy band across the night sky.",
-,,,,"Clouds or storms can obstruct the view of the night sky, making it harder to see stars or the moon.",TRUE
-,,galaxy,,"A galaxy is a massive collection of stars, gas, dust, and dark matter bound together by gravity.",TRUE
+,,,,"Clouds or storms can obstruct the view of the night sky, making it harder to see stars or the moon.",
+,,galaxy,,"A galaxy is a massive collection of stars, gas, dust, and dark matter bound together by gravity.",
 ,,,,Our solar system is part of the Milky Way galaxy.,
 ,,,,"Galaxies come in different shapes, such as spiral, elliptical, and irregular.",
 ,,,,Some galaxies are millions or even billions of light-years away from Earth.,
-,,,,The largest galaxies can contain trillions of stars.,TRUE
+,,,,The largest galaxies can contain trillions of stars.,
 ,,,,A galaxy's size and shape can tell astronomers a lot about its formation and history.,
 ,,,,The center of many galaxies contains a supermassive black hole.,
 ,,,,"Galaxies can collide and merge with each other, sometimes forming new galaxies.",
@@ -1009,7 +1009,7 @@ a5097b7f56d20217679f28201801476f,Where do you head to travel to a star?,night sk
 ,,,,"If you have much to say, it’s important to express your thoughts clearly.",
 ,,,,"Much of what happens in life is out of your control, but you can still influence some outcomes.",
 ,,,,Too much noise in a room can make it difficult to concentrate.,
-,,plenty,,"When you have plenty of something, you have more than enough to meet your needs or desires.",TRUE
+,,plenty,,"When you have plenty of something, you have more than enough to meet your needs or desires.",
 ,,,,A buffet with many different types of food offers plenty for guests to choose from.,
 ,,,,Having plenty of time means you are not rushed or pressured by deadlines.,
 ,,,,A garden that produces plenty of fruits and vegetables can provide food for a family for a long time.,
@@ -1071,7 +1071,7 @@ a5097b7f56d20217679f28201801476f,Where do you head to travel to a star?,night sk
 ,,,,Everything you do now can impact your future in unexpected ways.,
 ,,washington d.c,,Washington D.C. is the capital of the United States.,
 ,,,,The White House is located in Washington D.C. and serves as the residence of the U.S. president.,
-,,,,"The U.S. Capitol, where Congress meets, is also in Washington D.C.",TRUE
+,,,,"The U.S. Capitol, where Congress meets, is also in Washington D.C.",
 ,,,,"Washington D.C. has a lot of museums and monuments, including the Lincoln Memorial and the Smithsonian Institution.",
 ,,,,The National Mall in Washington D.C. is a popular place for tourists to visit.,
 ,,,,Washington D.C. is not part of any state; it's a federal district.,
@@ -1109,7 +1109,7 @@ a5097b7f56d20217679f28201801476f,Where do you head to travel to a star?,night sk
 ,,,,"When you sweat during a workout, it’s a sign that your body is working hard.",
 ,,,,"Excessive sweating, known as hyperhidrosis, can be embarrassing for some individuals.",
 ,,,,"Sweating helps to remove toxins from the body, although drinking water is also important to replace lost fluids.",
-,,excercise,,Regular exercise helps improve overall health and fitness.,TRUE
+,,excercise,,Regular exercise helps improve overall health and fitness.,
 ,,,,Exercise can help reduce stress and improve mental well-being.,
 ,,,,People often exercise to lose weight or maintain a healthy weight.,
 ,,,,Stretching before and after exercise can help prevent injury.,
@@ -1143,7 +1143,7 @@ a5097b7f56d20217679f28201801476f,Where do you head to travel to a star?,night sk
 ,,,,"If you want to swim faster, you should improve your technique and build strength.",
 ,,,,Children should always be supervised when they swim to ensure their safety.,
 ,,,,Some people prefer to swim in a pool because it’s cleaner and more controlled.,
-,,,,Swimming is a great form of exercise because it works out the whole body.,TRUE
+,,,,Swimming is a great form of exercise because it works out the whole body.,
 ,,,,"If you swim too soon after eating, you might feel uncomfortable or cramp up.",
 ,,,,People often swim in the morning to start their day with a burst of energy.,
 ,,,,"It’s important to know how to swim if you live near water, as it can be a life-saving skill.",
@@ -1246,11 +1246,11 @@ ba640b9634ad6b4ad98b17b4f152e562,Bob the lizard lives in a warm place with lots 
 ,,,,"Laboratories can be found in schools, universities, hospitals, research institutions, and industries.",
 ,,,,Lab technicians or researchers often follow strict protocols to ensure experiments are done accurately and safely.,
 ,,,,"The purpose of a laboratory is to test hypotheses, analyze results, and make discoveries that advance knowledge in various fields.",
-,,,,A clean and organized laboratory is important for preventing contamination and ensuring that experiments are conducted properly.,TRUE
+,,,,A clean and organized laboratory is important for preventing contamination and ensuring that experiments are conducted properly.,
 ,,,,"Many laboratories use chemical reagents or biological samples, which can be hazardous and require careful handling and disposal.",
 ,,,,"Laboratories are often equipped with computers for data analysis, record-keeping, and communication with other scientists.",
 3338109fcafaaa370c8900a53e1b3ed8,"The flasks was used to distill elements, where was is being used?",laboratory,chemistry lab,A laboratory is a controlled environment where scientific experiments and research are conducted.,
-,,,,"Laboratories often contain specialized equipment and instruments for experiments, such as microscopes, test tubes, and beakers.",TRUE
+,,,,"Laboratories often contain specialized equipment and instruments for experiments, such as microscopes, test tubes, and beakers.",
 ,,,,Researchers in a laboratory follow strict safety protocols to prevent accidents and exposure to hazardous materials.,
 ,,,,"Laboratories can be found in universities, research institutions, hospitals, and pharmaceutical companies.",
 ,,,,"Many laboratories focus on specific fields, such as chemistry, biology, physics, or medicine.",
@@ -1356,7 +1356,7 @@ e151b44e0a7bf08a1dd3c861eef09161,What may I place the telephone on?,bar,desktop,
 ,,,,"Many bars have music, either live or recorded, to create a lively atmosphere.",
 ,,,,"Some bars offer food, like appetizers or full meals, in addition to drinks.",
 ,,,,"Bars are often busy during the evening and night, especially on weekends.",
-,,,,"The term ""bar"" can also refer to the counter or surface where drinks are served.",TRUE
+,,,,"The term ""bar"" can also refer to the counter or surface where drinks are served.",
 ,,,,"Some bars have special themes or decor, like sports bars or tiki bars.",
 ,,,,"In some places, the legal drinking age limits who can enter a bar and consume alcohol.",
 ,,friend's house,,"A friend's house is a place where you can relax, hang out, and spend time with someone you trust.",
@@ -1389,7 +1389,7 @@ e151b44e0a7bf08a1dd3c861eef09161,What may I place the telephone on?,bar,desktop,
 ,,,,"Depending on the party, there might be a specific activity or entertainment, like karaoke, games, or a performance.",
 ,,,,"Partygoers may enjoy refreshments like appetizers, cocktails, or snacks, and it’s common to offer a variety to accommodate different tastes.",
 ,,,,"At the end of a party, guests often leave with a sense of enjoyment, sometimes exchanging contact information or plans to hang out again in the future.",
-,,office,,"An office is a place where people work, often with desks, computers, and phones.",TRUE
+,,office,,"An office is a place where people work, often with desks, computers, and phones.",
 ,,,,Offices typically have workstations or cubicles for employees to complete tasks.,
 ,,,,Many offices have meetings or conferences to discuss work-related topics.,
 ,,,,People in offices often use email and phone calls to communicate with coworkers or clients.,
@@ -1401,13 +1401,13 @@ e151b44e0a7bf08a1dd3c861eef09161,What may I place the telephone on?,bar,desktop,
 ,,,,"Many offices have communal spaces, such as kitchens or lounges, for employees to relax or eat.",
 c640116ca6905d5256edadb616b3f76e,Noble citizen of the Roman empire believed those born with lower status were what to them?,loser,inferior,"A ""loser"" is often used to describe someone who has failed to achieve a particular goal or outcome, such as losing a game or competition.",
 ,,,,"The term can be used in a self-deprecating or humorous way, but it can also be a hurtful label when used to insult someone.",
-,,,,"People may refer to others as ""losers"" when they believe that person is unsuccessful or lacks social status.",TRUE
+,,,,"People may refer to others as ""losers"" when they believe that person is unsuccessful or lacks social status.",
 ,,,,"Sometimes, a ""loser"" is simply someone who doesn’t fit into societal norms or expectations, regardless of their actual worth.",
 ,,,,"The label of ""loser"" can be applied to someone who repeatedly experiences failure or disappointment in certain aspects of life.",
 ,,,,"The concept of a ""loser"" is often subjective, as what is considered losing to one person might not be the same for another.",
 ,,,,"Some people embrace the idea of being a ""loser"" and turn it into a form of personal empowerment or defiance.",
 ,,,,"Being called a ""loser"" can negatively affect someone's self-esteem or sense of identity, especially if it becomes a consistent theme.",
-,,,,"In a social setting, someone might be labeled a ""loser"" if they don't fit in, are socially awkward, or lack the traits valued by the group.",TRUE
+,,,,"In a social setting, someone might be labeled a ""loser"" if they don't fit in, are socially awkward, or lack the traits valued by the group.",
 ,,,,"Despite the negative connotations, everyone experiences setbacks and failures at times, and being a ""loser"" in one instance doesn’t define a person's overall worth.",
 ,,ignoble,,"Ignoble refers to actions, behavior, or traits that are considered dishonorable or morally wrong.",
 ,,,,An ignoble deed is one that lacks integrity or decency.,
@@ -1423,7 +1423,7 @@ c640116ca6905d5256edadb616b3f76e,Noble citizen of the Roman empire believed thos
 ,,,,"Historically, peasants were often tied to the land and may have worked for wealthier landowners or lords.",
 ,,,,"Peasants usually lived in small, simple homes made from local materials, like wood or mud.",
 ,,,,They often lived in close-knit communities where everyone worked together to grow food or raise livestock.,
-,,,,"In many cultures, peasants were considered part of the lower social class, with limited access to education or resources.",TRUE
+,,,,"In many cultures, peasants were considered part of the lower social class, with limited access to education or resources.",
 ,,,,"The work of a peasant is physically demanding and usually involves long hours in the fields, tending crops or animals.",
 ,,,,Peasants typically had little to no access to political power or influence and often had to accept the decisions made by landowners or rulers.,
 ,,,,"Over time, some peasants were able to improve their circumstances through hard work, but many remained in poverty.",
@@ -1439,7 +1439,7 @@ c640116ca6905d5256edadb616b3f76e,Noble citizen of the Roman empire believed thos
 ,,,,"If someone feels inferior in a social setting, they might have low self-esteem or a lack of confidence.",
 ,,,,"In a competitive context, being called inferior can be demotivating or discouraging.",
 ,,,,"An inferior version of a product or service may be a cheaper alternative, but it could lack some important features.",
-,,plebeian,,"The term ""plebeian"" originally referred to the common people in ancient Rome, distinct from the aristocratic patricians.",TRUE
+,,plebeian,,"The term ""plebeian"" originally referred to the common people in ancient Rome, distinct from the aristocratic patricians.",
 ,,,,"Plebeians were typically farmers, artisans, and laborers who worked for a living rather than holding positions of political power.",
 ,,,,"Over time, the concept of plebeians became associated with the working class or the lower socioeconomic groups in societies.",
 ,,,,"Plebeians in ancient Rome often struggled for more rights and social mobility, with significant political and legal reforms made over time to improve their status.",
@@ -1449,10 +1449,10 @@ c640116ca6905d5256edadb616b3f76e,Noble citizen of the Roman empire believed thos
 ,,,,"The struggles and desires of plebeians are often central to social movements, as they advocate for fairness and equality in society.",
 ,,,,"In some settings, plebeians are depicted as being more grounded and practical compared to the elite, who may be portrayed as out of touch with everyday life.",
 ,,,,"Historically, plebeians were an important force for social change, pushing for rights, reforms, and representation in governments or leadership structures.",
-163898952cb6baf3a6440696e1352e86,"If for some reason you were to start killing people, what would you be likely to receive?",feelings of guilt,prison sentence,Feelings of guilt arise when someone believes they have done something wrong or hurtful.,TRUE
+163898952cb6baf3a6440696e1352e86,"If for some reason you were to start killing people, what would you be likely to receive?",feelings of guilt,prison sentence,Feelings of guilt arise when someone believes they have done something wrong or hurtful.,
 ,,,,"Guilt can be triggered by actions, words, or even thoughts that go against one's values or ethics.",
 ,,,,"People may experience guilt when they hurt someone's feelings, break promises, or make mistakes.",
-,,,,The feeling of guilt often involves a desire to make amends or apologize for what has been done.,TRUE
+,,,,The feeling of guilt often involves a desire to make amends or apologize for what has been done.,
 ,,,,Guilt can be a motivator for people to change their behavior or avoid repeating the same mistake.,
 ,,,,Some people may experience intense feelings of guilt even when their actions were unintentional or minor.,
 ,,,,"Guilt can lead to a sense of self-blame, where individuals feel like they are responsible for the negative outcome.",
@@ -1469,9 +1469,9 @@ c640116ca6905d5256edadb616b3f76e,Noble citizen of the Roman empire believed thos
 ,,,,"The possibility of parole allows some prisoners to be released before completing their full sentence, depending on their behavior and rehabilitation progress.",
 ,,,,"A prison sentence can affect a person's reputation and how they are perceived in society, even after they are released.",
 ,,,,"Serving a prison sentence does not necessarily mean a person is ""fixed"" or reformed, as recidivism rates can be high.",
-,,terrible,,A terrible experience can leave lasting negative emotions.,TRUE
+,,terrible,,A terrible experience can leave lasting negative emotions.,
 ,,,,A terrible storm can cause widespread damage and fear.,
-,,,,A terrible mistake often leads to regret and can be hard to fix.,TRUE
+,,,,A terrible mistake often leads to regret and can be hard to fix.,
 ,,,,A terrible headache can make it difficult to focus or perform tasks.,
 ,,,,Terrible news can make people feel sad or anxious.,
 ,,,,A terrible meal at a restaurant may make you lose your appetite.,
@@ -1494,7 +1494,7 @@ c640116ca6905d5256edadb616b3f76e,Noble citizen of the Roman empire believed thos
 ,,,,"Animals, like humans, can die due to illness, old age, or accidents.",
 ,,,,"The process of dying can be peaceful or painful, depending on the circumstances.",
 ,,,,Many cultures have rituals and ceremonies to honor the dead.,
-,,,,"People may fear dying, especially when faced with life-threatening situations.",TRUE
+,,,,"People may fear dying, especially when faced with life-threatening situations.",
 ,,,,"After someone dies, their body is typically buried or cremated.",
 ,,,,Death is a natural part of the life cycle for all living organisms.,
 ,,,,"Some people believe in an afterlife, while others think death is the end of existence.",
@@ -1502,7 +1502,7 @@ c640116ca6905d5256edadb616b3f76e,Noble citizen of the Roman empire believed thos
 caccaa51ee960a92d44e5b949fc35a66,"They wanted to try blowfish, so they went to get some where?",atlantic ocean,fish market,"The Atlantic Ocean is one of the five major oceans on Earth, covering about 20% of the planet’s surface.",
 ,,,,The Atlantic Ocean separates the continents of North and South America from Europe and Africa.,
 ,,,,"The Atlantic Ocean is known for its historical significance, as many transatlantic voyages and explorations took place across it.",
-,,,,"The ocean is home to various marine life, including whales, dolphins, sharks, and a wide range of fish species.",TRUE
+,,,,"The ocean is home to various marine life, including whales, dolphins, sharks, and a wide range of fish species.",
 ,,,,"The Atlantic Ocean has both warm waters in the Gulf Stream and cold waters in the North Atlantic, which influence global weather patterns.",
 ,,,,"It plays a crucial role in international shipping and trade, with many of the world's busiest ports located along its coasts.",
 ,,,,"The Atlantic Ocean is prone to hurricanes, especially in the late summer and fall, due to warm ocean temperatures.",
@@ -1529,7 +1529,7 @@ caccaa51ee960a92d44e5b949fc35a66,"They wanted to try blowfish, so they went to g
 ,,,,"The French are known for their fashion and have a long-standing influence on the global fashion industry, especially in cities like Paris.",
 ,,,,"The French flag consists of three vertical stripes: blue, white, and red.",
 ,,,,"France is home to several world-famous landmarks, such as the Château de Versailles, Mont-Saint-Michel, and the French Riviera.",
-,,aquarium,,An aquarium is often used to display aquatic animals like fish and sea turtles.,TRUE
+,,aquarium,,An aquarium is often used to display aquatic animals like fish and sea turtles.,
 ,,,,An aquarium needs regular cleaning to maintain water quality for the fish.,
 ,,,,People visit aquariums to learn about marine life and underwater ecosystems.,
 ,,,,"Aquariums can vary in size, from small home tanks to large public displays.",
@@ -1679,7 +1679,7 @@ c7cb327fa4c0008efaa7741081a365d4,What would you be building if you designed a pl
 ,,,,People wave goodbye as they watch a plane fly away.,
 ,,,,Butterflies quickly fly away when disturbed.,
 ,,,,"If a hat is not secured, a gust of wind might make it fly away.",
-,,cat condo,,A cat condo provides a comfortable place for cats to rest and play.,TRUE
+,,cat condo,,A cat condo provides a comfortable place for cats to rest and play.,
 ,,,,Cats often climb to the top levels of a cat condo to observe their surroundings.,
 ,,,,A cat condo usually includes multiple platforms and cubbies for exploration.,
 ,,,,Scratching posts are often built into cat condos to help cats maintain their claws.,
@@ -1718,7 +1718,7 @@ c7cb327fa4c0008efaa7741081a365d4,What would you be building if you designed a pl
 ,,,,"Parks are sometimes used for outdoor events, like concerts, festivals, or community gatherings.",
 ,,,,"Parks may include water features like ponds, fountains, or lakes for aesthetic beauty or recreational use.",
 ,,,,"People go to parks to exercise, often walking, jogging, or cycling along park trails.",
-,,,,"Parks help support local wildlife, providing habitats for birds, insects, and small animals.",TRUE
+,,,,"Parks help support local wildlife, providing habitats for birds, insects, and small animals.",
 ,,guitar,,A guitar is a musical instrument with strings that are plucked or strummed to produce sound.,
 ,,,,"Guitars come in different types, including acoustic, electric, and bass guitars.",
 ,,,,"The sound of an acoustic guitar is produced by the vibration of its strings, amplified by the hollow body.",
@@ -1749,7 +1749,7 @@ c7cb327fa4c0008efaa7741081a365d4,What would you be building if you designed a pl
 ,,,,"The behavior of quarks is described by quantum chromodynamics (QCD), a theory that explains how quarks interact with each other.",
 ,,,,"Quarks can never be isolated or separated from one another due to a phenomenon known as ""confinement.""",
 ,,,,The discovery of quarks in the 1960s revolutionized our understanding of particle physics and the structure of matter.,
-6c70d98cfb8e97fda8caefcee761a229,Zane doesn't like answering questions.  He's not good at it because he suffers from what?,panic,confusion,Panic can make it hard to think clearly or make decisions.,TRUE
+6c70d98cfb8e97fda8caefcee761a229,Zane doesn't like answering questions.  He's not good at it because he suffers from what?,panic,confusion,Panic can make it hard to think clearly or make decisions.,
 ,,,,"When someone panics, their heart rate and breathing may increase.",
 ,,,,People often panic in situations where they feel threatened or out of control.,
 ,,,,"Panic can spread in a group, causing others to react irrationally as well.",
@@ -1769,7 +1769,7 @@ c7cb327fa4c0008efaa7741081a365d4,What would you be building if you designed a pl
 ,,,,"A discussion can be formal, like in a meeting or debate, or informal, like chatting with friends over coffee.",
 ,,,,Body language and tone of voice can play a big role in how a discussion is perceived and how effectively people communicate.,
 ,,,,"Sometimes, taking a break during a long or intense discussion can help clear up misunderstandings or ease tension.",
-,,attention,,"Attention is limited, so it's hard to focus on multiple things at once for long periods.",TRUE
+,,attention,,"Attention is limited, so it's hard to focus on multiple things at once for long periods.",
 ,,,,People tend to give more attention to things that are new or unusual.,
 ,,,,"In a noisy environment, it can be difficult to maintain attention on one task.",
 ,,,,Attention can shift easily if something more interesting or urgent comes up.,
@@ -1778,7 +1778,7 @@ c7cb327fa4c0008efaa7741081a365d4,What would you be building if you designed a pl
 ,,,,"Maintaining attention on a task can be exhausting after a while, leading to reduced focus.",
 ,,,,"Attention can be improved with practice, such as meditation or mindfulness exercises.",
 ,,,,Children often have shorter attention spans compared to adults.,
-,,,,"When people are bored, their attention tends to wander, making it hard to stay engaged.",TRUE
+,,,,"When people are bored, their attention tends to wander, making it hard to stay engaged.",
 ,,confusion,,"Confusion occurs when someone is unsure or unclear about something, often due to conflicting information or complex details.",TRUE
 ,,,,People can feel confused when they don't understand instructions or when things are not explained properly.,TRUE
 ,,,,Confusion is often temporary and can be resolved once the missing information or clarity is provided.,
@@ -1816,7 +1816,7 @@ c7cb327fa4c0008efaa7741081a365d4,What would you be building if you designed a pl
 ,,,,"People often have meetings in the office to discuss projects, updates, or problems.",
 ,,,,"In an office, employees may collaborate with coworkers or work independently.",
 ,,,,"Offices can sometimes be stressful environments, especially when there are tight deadlines.",
-,,,,It's common to have a coffee machine or snacks in the office for employees to take breaks.,TRUE
+,,,,It's common to have a coffee machine or snacks in the office for employees to take breaks.,
 ,,,,"Many offices have certain rules or policies, like dress codes or work hours, to maintain professionalism.",
 ,,,,"With the rise of remote work, some people no longer go to a physical office and work from home.",
 ,,table,,"A table is typically used to hold items such as food, books, or electronic devices.",
@@ -1877,7 +1877,7 @@ c7cb327fa4c0008efaa7741081a365d4,What would you be building if you designed a pl
 ,,,,"Buildings can vary in size, from small houses to towering skyscrapers.",
 ,,,,The foundation of a building must be strong to support its weight and structure.,
 ,,,,"The layout of a building includes rooms, corridors, and staircases that allow people to move around.",
-,,,,"Buildings are often designed to meet specific needs, such as offices, homes, schools, or factories.",TRUE
+,,,,"Buildings are often designed to meet specific needs, such as offices, homes, schools, or factories.",
 ,,,,"A building's appearance, including its design and exterior materials, can reflect its purpose or the culture of the area.",
 ,,bowling alley,,"A bowling alley is a place where people go to play bowling, a sport involving rolling a ball to knock down pins.",
 ,,,,"The main feature of a bowling alley is the long, smooth lane where players roll their bowling balls.",
@@ -1954,7 +1954,7 @@ d807e7ae60976324920c8d29eb42dad6,Where does a heifer's master live?,farm house,f
 ,,,,"The ground can be hard or soft, depending on factors like weather and location.",
 ,,,,"When it rains, the ground absorbs water, which helps nourish plants.",
 ,,,,"People often dig into the ground to plant trees, build foundations, or bury things.",
-,,,,"The ground can be covered with grass, dirt, sand, or pavement, depending on the environment.",TRUE
+,,,,"The ground can be covered with grass, dirt, sand, or pavement, depending on the environment.",
 ,,,,"Animals, like dogs, often dig into the ground for various reasons, such as hiding food or creating a shelter.",
 ,,,,The ground can sometimes become muddy after heavy rainfall.,
 ,,,,"Earthquakes occur beneath the ground, shaking the surface and causing potential damage.",
@@ -2002,9 +2002,9 @@ d807e7ae60976324920c8d29eb42dad6,Where does a heifer's master live?,farm house,f
 801431167b8bff06b9870abe9721536b,"He was very outgoing, for him making friends was no personal what?",scary,conflict,A scary situation often involves a sense of danger or uncertainty that makes someone feel afraid or anxious.,
 ,,,,"Movies or stories labeled as ""scary"" typically aim to evoke fear, suspense, or surprise through elements like suspenseful music, creepy settings, or unexpected events.",
 ,,,,The dark is commonly associated with being scary because it hides things we can't see or understand.,
-,,,,"People may feel scared when faced with situations that are unfamiliar, dangerous, or outside their control.",TRUE
+,,,,"People may feel scared when faced with situations that are unfamiliar, dangerous, or outside their control.",
 ,,,,"Horror films are designed to create a scary atmosphere by using shocking visuals, eerie sounds, and intense moments.",
-,,,,Scary things can vary from person to person; something that frightens one person may not be scary at all to another.,TRUE
+,,,,Scary things can vary from person to person; something that frightens one person may not be scary at all to another.,
 ,,,,Being alone in an unfamiliar place at night can feel scary due to the fear of the unknown or imagined dangers.,
 ,,,,"A loud, sudden noise in a quiet place can be scary because it triggers a natural fight-or-flight response.",
 ,,,,"Scary experiences often leave a lasting emotional impact, causing people to feel uneasy or anxious even after the event is over.",
@@ -2050,10 +2050,10 @@ d807e7ae60976324920c8d29eb42dad6,Where does a heifer's master live?,farm house,f
 ,,,,A strong friendship can offer a sense of belonging and security.,
 ,,,,"Sometimes, just being present with a friend, even in silence, is enough to nurture a deep friendship.",
 2c9f4a98ce774cd734b6e384d95051a7,"They children loved having a back yard, and the parents loved that it was a safe what?",suburb,neighborhood,Suburbs are typically residential areas located on the outskirts of a city.,
-,,,,"People who live in suburbs often have more space, including larger homes and yards, compared to those in the city.",TRUE
+,,,,"People who live in suburbs often have more space, including larger homes and yards, compared to those in the city.",
 ,,,,Suburbs tend to be quieter and less crowded than urban areas.,
 ,,,,"Many suburbs have a family-friendly atmosphere with schools, parks, and recreational areas.",
-,,,,"Suburbs are often seen as desirable places to raise children due to the safer, less hectic environment.",TRUE
+,,,,"Suburbs are often seen as desirable places to raise children due to the safer, less hectic environment.",
 ,,,,"Public transportation options in suburbs can be limited, so many people rely on cars to get around.",
 ,,,,"Suburbs may have fewer entertainment and cultural options than a bustling city, but they often have shopping centers and local restaurants.",
 ,,,,"People living in suburbs can enjoy the best of both worlds: peace and quiet at home, with easy access to the city's amenities.",
@@ -2124,7 +2124,7 @@ cfa980561efe82e7ae7080d4f081b463,What is someone operating a vehicle likely to b
 ,,,,Speeding increases the likelihood of accidents and can make them more severe.,
 ,,,,"Weather conditions, like rain, snow, or fog, can contribute to automobile accidents by reducing visibility and traction.",
 ,,,,Wearing a seatbelt significantly reduces the risk of serious injury or death in an automobile accident.,
-,,,,"Drunk driving is a leading cause of automobile accidents, impairing judgment and reaction times.",TRUE
+,,,,"Drunk driving is a leading cause of automobile accidents, impairing judgment and reaction times.",
 ,,,,"After an automobile accident, it’s important to exchange insurance and contact information with the other party.",
 ,,,,"Even minor automobile accidents can lead to significant vehicle damage, requiring repairs.",
 ,,,,"Automobile accidents can cause emotional trauma, especially if there are serious injuries or fatalities involved.",
@@ -2161,12 +2161,12 @@ e9d4c747018ff81b8c0aefb5abc3c539,What do people need to do to change their lives
 ,,,,"Sometimes, the solutions to problems come from learning from mistakes or past experiences.",
 ,,better themselves,,People who strive to better themselves often set goals and work towards self-improvement.,
 ,,,,"To better themselves, individuals often seek new skills, knowledge, or experiences.",
-,,,,Bettering oneself can require overcoming personal challenges and learning from mistakes.,TRUE
+,,,,Bettering oneself can require overcoming personal challenges and learning from mistakes.,
 ,,,,"People who are focused on bettering themselves may prioritize their health, both mentally and physically.",
 ,,,,Self-discipline and persistence are important qualities for someone looking to better themselves.,
 ,,,,"Reading books, taking courses, and seeking feedback are common ways people try to better themselves.",
 ,,,,A person trying to better themselves might surround themselves with positive influences and role models.,
-,,,,"Sometimes, bettering oneself involves stepping outside of one’s comfort zone to embrace change.",TRUE
+,,,,"Sometimes, bettering oneself involves stepping outside of one’s comfort zone to embrace change.",
 ,,,,"Bettering oneself is often a lifelong journey, requiring patience and a willingness to grow.",
 ,,,,People who work on bettering themselves are usually motivated by the desire for a more fulfilling life or achieving personal happiness.,
 ,,pay bills,,Paying bills on time helps maintain a good credit score and avoids late fees.,
@@ -2233,7 +2233,7 @@ e9d4c747018ff81b8c0aefb5abc3c539,What do people need to do to change their lives
 ,,,,"Students typically follow a schedule that includes classes, breaks, and extracurricular activities.",
 ,,,,It is important for school students to develop good study habits to succeed academically.,
 ,,,,"Students often face pressures from homework, exams, and the desire to perform well in school.",
-,,,,Teachers play a crucial role in guiding students through their education and providing support.,TRUE
+,,,,Teachers play a crucial role in guiding students through their education and providing support.,
 ,,,,Social interaction with peers is an important aspect of a school student’s development.,
 ,,,,"School students often participate in extracurricular activities like sports, music, and clubs to explore their interests.",
 ,,,,Students are expected to follow rules and respect authority while in school to maintain a safe and productive learning environment.,
@@ -2308,7 +2308,7 @@ e9d4c747018ff81b8c0aefb5abc3c539,What do people need to do to change their lives
 ,,,,People may intentionally avoid having the last word to prevent further conflict.,
 ,,,,"In some cultures, having the last word in an argument is seen as disrespectful.",
 ,,,,The last word can be an expression of closure or finality in a situation.,
-,,,,"In written communication, the last word can leave a lasting impression on the reader.",TRUE
+,,,,"In written communication, the last word can leave a lasting impression on the reader.",
 ,,conclusion,,A conclusion is the final part of an argument or discussion.,
 ,,,,It summarizes the main points or findings that were presented.,
 ,,,,Conclusions are often drawn after careful thought or analysis of evidence.,
@@ -2329,7 +2329,7 @@ e9d4c747018ff81b8c0aefb5abc3c539,What do people need to do to change their lives
 ,,,,Some people may find it helpful to watch video tutorials or seek help online when assembling IKEA furniture.,
 ,,,,The instructions are printed in multiple languages to accommodate customers worldwide.,
 ,,,,"Patience is often required when following IKEA instructions, as some steps may take longer than expected.",
-,,afterword,,"An afterword is a section in a book that appears at the end, typically written by the author or another contributor.",TRUE
+,,afterword,,"An afterword is a section in a book that appears at the end, typically written by the author or another contributor.",
 ,,,,"It is often used to provide additional context, reflections, or commentary on the content of the book.",
 ,,,,Afterwords can explain the inspiration behind the book or offer insight into its themes and messages.,
 ,,,,They may also include acknowledgments or thank-yous to people who helped with the book's creation.,
@@ -2369,7 +2369,7 @@ f192cfacbaa2f7e0e879f673c8e076a7,Where are the most famous BBQ steakhouses in am
 ,,,,"Buildings are often located in areas with easy access to transportation, such as roads or public transit.",
 ,,,,"In cities, buildings are usually close together, but in rural areas, they are often more spaced out.",
 ,,,,Fire exits and safety features like alarms and sprinklers are essential parts of modern buildings for emergency preparedness.,
-,,kansas city,,"Kansas City is known for its delicious barbecue, especially its signature style of sauce.",TRUE
+,,kansas city,,"Kansas City is known for its delicious barbecue, especially its signature style of sauce.",
 ,,,,"The city is located on the border between Missouri and Kansas, with a rich history in jazz music.",
 ,,,,"Kansas City is home to the NFL's Kansas City Chiefs, who play at Arrowhead Stadium.",
 ,,,,"The city experiences all four seasons, with hot summers and cold winters.",
@@ -2405,7 +2405,7 @@ f192cfacbaa2f7e0e879f673c8e076a7,Where are the most famous BBQ steakhouses in am
 ,,,,"Fields are often found in rural areas, away from urban development.",
 ,,,,"A sports field is a specific type of field used for outdoor games like soccer, football, or baseball.",
 ,,,,"In a field, the land is usually flat or gently sloping, which makes it ideal for farming or other activities.",
-,,,,"Fields can be used for recreational purposes, like picnics, hiking, or playing with pets.",TRUE
+,,,,"Fields can be used for recreational purposes, like picnics, hiking, or playing with pets.",
 ,,,,"Fields can be affected by weather conditions, with too much rain leading to muddy ground or drought causing crops to wither.",
 ,,,,Fields are sometimes enclosed by fences or walls to keep animals in or out.,
 ,,,,"The term ""field"" can also refer to a specific area of expertise or study, such as a ""field of science"" or ""field of work.""",
@@ -2449,7 +2449,7 @@ f192cfacbaa2f7e0e879f673c8e076a7,Where are the most famous BBQ steakhouses in am
 ,,,,"A painting can be abstract, where shapes and colors are more important than representing objects, or it can be realistic, aiming to depict real-world subjects accurately.",
 ,,,,Paintings are often displayed in galleries or museums for public viewing and appreciation.,
 ,,,,"Some paintings are extremely valuable, either for their historical significance or because of the fame of the artist who created them.",
-bcd51af35d691f5c3b6b548096ab1559,"Everybody seemed to be crying at the holy site, the tour guide explained that this was what?",profane,common,"""Profane"" refers to something that is disrespectful or irreverent, often in relation to religion or sacred things.",TRUE
+bcd51af35d691f5c3b6b548096ab1559,"Everybody seemed to be crying at the holy site, the tour guide explained that this was what?",profane,common,"""Profane"" refers to something that is disrespectful or irreverent, often in relation to religion or sacred things.",
 ,,,,Using profanity in public spaces can make people feel uncomfortable or offended.,
 ,,,,"Profanity is often considered inappropriate in formal settings, like business meetings or religious ceremonies.",
 ,,,,"The use of profane language is sometimes seen as a way to express strong emotions, such as anger or frustration.",

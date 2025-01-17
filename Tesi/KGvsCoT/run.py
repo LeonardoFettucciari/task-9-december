@@ -34,16 +34,16 @@ model_list = ["meta-llama/Llama-3.2-3B-Instruct",
               ]
 
 # I/O paths
-shots_with_knowledge_path = "Tesi/KGvsCoT/data/trainKG.csv"
-shots_cot_path = "Tesi/KGvsCoT/data/trainCOT.csv"
-eval_data_with_knowledge_path = "Tesi/KGvsCoT/data/evalKG.csv"
-eval_data_cot_path = "Tesi/KGvsCoT/data/evalCOT.csv"
+shots_with_knowledge_path = "Tesi/KGvsCoT/data/train.csv"
+shots_cot_path = "Tesi/KGvsCoT/data/train_cot.csv"
+eval_data_with_knowledge_path = "Tesi/KGvsCoT/data/eval.csv"
+eval_data_cot_path = "Tesi/KGvsCoT/data/eval_cot.csv"
 metrics_output_path = "Tesi/KGvsCoT/output/metrics.tsv"
 
 # Input parsing
 shots_with_knowledge = parse_csv(shots_with_knowledge_path)
 shots_cot = parse_csv_cot(shots_cot_path)
-eval_data = parse_csv(eval_data_with_knowledge_path)[:5]
+eval_data = parse_csv(eval_data_with_knowledge_path)
 
 # Main
 metrics_output = []
@@ -101,6 +101,7 @@ for model_index, model_name in enumerate(model_list, 1):
         raw_answer_fewshot_cot, answer_fewshot_cot =                         get_answers(model, tokenizer, prompt_fewshot_cot, model_name, max_new_tokens=512, device='cuda')
 
         # TODO: Parse cot output with regex both zero and few shot
+        
 
         # Append answers for computing metrics later
         answers_zeroshot.append(answer_zeroshot)
