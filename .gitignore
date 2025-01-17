@@ -4,6 +4,8 @@
 .nv/
 .venv/
 .vscode-server/
+.dotnet/
+.byobu/
 snap/
 
 # Files
