@@ -1,11 +1,12 @@
 # Directories
+.dotnet/
+.byobu/
 .cache/
 .config/
 .nv/
 .venv/
 .vscode-server/
-.dotnet/
-.byobu/
+
 snap/
 
 # Files
