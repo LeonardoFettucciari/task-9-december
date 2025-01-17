@@ -1,4 +1,7 @@
 import os
+# Redirect caching
+os.environ["HF_HOME"] = "/media/ssd/leonardofettucciari/cache1"
+from dotenv import load_dotenv
 import transformers
 import torch
 import tqdm
@@ -16,10 +19,12 @@ from utils.metrics_utils import compute_metrics
 def evaluation_kg(model_name, train_data_path, eval_data_path):
 
     # Device
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    #device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = 'cpu'
 
-    # authentication for gated models e.g. LLama
-    hf_token = "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"
+    # Authentication for gated models e.g. LLama
+    load_dotenv()
+    hf_token = os.getenv("HF_TOKEN")
     login(hf_token)
 
     model = AutoModelForCausalLM.from_pretrained(

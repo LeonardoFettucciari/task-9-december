@@ -1,4 +1,7 @@
 import os
+# Redirect caching
+os.environ["HF_HOME"] = "/media/ssd/leonardofettucciari/cache1"
+from dotenv import load_dotenv
 import transformers
 import torch
 import tqdm
@@ -7,7 +10,6 @@ from huggingface_hub import login
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from datasets import load_dataset
 
-from prompts.prompts import template, SYSTEM_REQUEST_KG
 from utils.model_utils import get_answers
 from utils.prompt_utils import prepare_fewshot_prompt_cot, prepare_zeroshot_prompt_cot
 from utils.csv_utils import parse_csv_cot
@@ -16,10 +18,12 @@ from utils.metrics_utils import compute_metrics
 def evaluation_cot(model_name, train_data_path, eval_data_path):
 
     # Device
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    #device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = 'cpu'
 
-    # authentication for gated models e.g. LLama
-    hf_token = "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"
+    # Authentication for gated models e.g. LLama
+    load_dotenv()
+    hf_token = os.getenv("HF_TOKEN")
     login(hf_token)
 
     model = AutoModelForCausalLM.from_pretrained(

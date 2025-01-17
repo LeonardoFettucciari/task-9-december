@@ -1,44 +1,62 @@
 def compute_metrics(
         ground_truths,
-        answers_zeroshot_text_based=[],
-        answers_zeroshot_prob_based=[],
-        answers_fewshot_text_based=[],
-        answers_fewshot_prob_based=[]
+        answers_zeroshot = [],
+        answers_zeroshot_with_knowledge = [],
+        answers_zeroshot_cot = [],
+        answers_fewshot = [],
+        answers_fewshot_with_knowledge = [],
+        answers_fewshot_cot = [],
 ):
-    correct_zs_t = 0
-    correct_zs_p = 0
-    correct_fs_t = 0
-    correct_fs_p = 0
+    correct_zeroshot = 0
+    correct_zeroshot_with_knowledge = 0
+    correct_zeroshot_cot = 0
+    correct_fewshot = 0
+    correct_fewshot_with_knowledge = 0
+    correct_fewshot_cot = 0
 
     for (
         gt,
-        zs_t,
-        zs_p,
-        fs_t,
-        fs_p
+        zs,
+        zs_wk,
+        zs_cot,
+        fs,
+        fs_wk,
+        fs_cot
     ) in zip(
         ground_truths,
-        answers_zeroshot_text_based,
-        answers_zeroshot_prob_based,
-        answers_fewshot_text_based,
-        answers_fewshot_prob_based
+        answers_zeroshot,
+        answers_zeroshot_with_knowledge,
+        answers_zeroshot_cot,
+        answers_fewshot,
+        answers_fewshot_with_knowledge,
+        answers_fewshot_cot
     ):
-        if gt == zs_t.strip():
-            correct_zs_t += 1
-        if gt == zs_p.strip():
-            correct_zs_p += 1
-        if gt == fs_t.strip():
-            correct_fs_t += 1
-        if gt == fs_p.strip():
-            correct_fs_p += 1
+        if gt == zs.strip():
+            correct_zeroshot += 1
+        if gt == zs_wk.strip():
+            correct_zeroshot_with_knowledge += 1
+        if gt == zs_cot.strip():
+            correct_zeroshot_cot += 1
 
-    accuracy_zs_t = correct_zs_t/len(ground_truths)
-    accuracy_zs_p = correct_zs_p/len(ground_truths)
-    accuracy_fs_t = correct_fs_t/len(ground_truths)
-    accuracy_fs_p = correct_fs_p/len(ground_truths)
+        if gt == fs.strip():
+            correct_fewshot += 1
+        if gt == fs_wk.strip():
+            correct_fewshot_with_knowledge += 1
+        if gt == fs_cot.strip():
+            correct_fewshot_cot += 1
 
-    return {'accuracy_zs_t': accuracy_zs_t,
-            'accuracy_zs_p': accuracy_zs_p,
-            'accuracy_fs_t': accuracy_fs_t,
-            'accuracy_fs_p': accuracy_fs_p
+    accuracy_zeroshot = correct_zeroshot/len(ground_truths)
+    accuracy_zeroshot_with_knowledge = correct_zeroshot_with_knowledge/len(ground_truths)
+    accuracy_zeroshot_cot = correct_zeroshot_cot/len(ground_truths)
+
+    accuracy_fewshot = correct_fewshot/len(ground_truths)
+    accuracy_fewshot_with_knowledge = correct_fewshot_with_knowledge/len(ground_truths)
+    accuracy_fewshot_cot = correct_fewshot_cot/len(ground_truths)
+
+    return {'accuracy_zeroshot': accuracy_zeroshot,
+            'accuracy_zeroshot_with_knowledge': accuracy_zeroshot_with_knowledge,
+            'accuracy_zeroshot_cot': accuracy_zeroshot_cot,
+            'accuracy_fewshot': accuracy_fewshot,
+            'accuracy_fewshot_with_knowledge': accuracy_fewshot_with_knowledge,
+            'accuracy_fewshot_cot': accuracy_fewshot_cot,
             }

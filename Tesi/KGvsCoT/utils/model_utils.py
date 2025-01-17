@@ -6,9 +6,8 @@ def generate_text(model,
                   max_new_tokens=512,
                   system=True,
                   device=torch.device("cuda" if torch.cuda.is_available() else "cpu")):
-    messages = []
-
     # Convert to chat template
+    messages = []
     if system:
         messages.append({"role": "system", "content": prompt.pop(0)})
         
@@ -70,12 +69,13 @@ def get_answers(model,
                 max_new_tokens=512,
                 system=True,
                 device=torch.device("cuda" if torch.cuda.is_available() else "cpu")):
+    
     # Generate alternative labels with whitespaces in front.
     labels = ['A', 'B', 'C', 'D', 'E']
     labels.extend([f" {label}" for label in labels])
 
     # Generate text using the model.
-    model_outputs, text_based_answer = generate_text(
+    model_outputs, raw_generated_answer = generate_text(
         model=model,
         tokenizer=tokenizer,
         prompt=prompt,
@@ -92,17 +92,16 @@ def get_answers(model,
     labels = [label for label in labels if len(tokenizer.tokenize(label)) == 1]
 
     # Get the label IDs.
-    label_ids = [
-        tokenizer.encode(label, add_special_tokens=False)[0] for label in labels
-    ]
+    label_ids = [tokenizer.encode(label, add_special_tokens=False)[0] for label in labels]
+
     # Get the probability of each label (A, B, C, D, E) and its variants.
     answer = [probabilities[label_id].item() for label_id in label_ids]
 
 
     # Get the label with the highest probability.
     answer = labels[answer.index(max(answer))]
-    prob_based_answer = answer.lstrip()
+    answer = answer.lstrip()
 
-    return text_based_answer, prob_based_answer
+    return raw_generated_answer, answer
 
     

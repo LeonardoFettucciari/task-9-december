@@ -1,5 +1,5 @@
-model_name	ZT_KG	ZT_CoT	ZP_KG	ZP_CoT	FT_KG	FT_CoT	FP_KG	FP_CoT
-meta-llama/Llama-3.2-3B-Instruct	0.64	0.66	0.16	0.16	0.66	0.68	0.22	0.12
-meta-llama/Llama-3.1-8B-Instruct	0.74	0.7	0.14	0.18	0.66	0.64	0.24	0.24
-Qwen/Qwen2.5-1.5B-Instruct	0.64	0.62	0.08	0.18	0.34	0.54	0.16	0.2
-Qwen/Qwen2.5-7B-Instruct	0.52	0.74	0.72	0.62	0.54	0.72	0.72	0.76
+model_name	accuracy_zeroshot	accuracy_zeroshot_with_knowledge	accuracy_zeroshot_cot	accuracy_fewshot	accuracy_fewshot_with_knowledge	accuracy_fewshot_cot
+meta-llama/Llama-3.2-3B-Instruct	0.56	0.64	0.1	0.24	0.24	0.24
+meta-llama/Llama-3.1-8B-Instruct	0.64	0.74	0.14	0.22	0.24	0.26
+Qwen/Qwen2.5-1.5B-Instruct	0.6	0.64	0.22	0.24	0.24	0.26
+Qwen/Qwen2.5-7B-Instruct	0.74	0.74	0.72	0.24	0.24	0.24
