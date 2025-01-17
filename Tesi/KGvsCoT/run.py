@@ -43,7 +43,7 @@ metrics_output_path = "Tesi/KGvsCoT/output/metrics.tsv"
 # Input parsing
 shots_with_knowledge = parse_csv(shots_with_knowledge_path)
 shots_cot = parse_csv_cot(shots_cot_path)
-eval_data = parse_csv(eval_data_with_knowledge_path)
+eval_data = parse_csv(eval_data_with_knowledge_path)[:5]
 
 # Main
 metrics_output = []
@@ -128,7 +128,7 @@ for model_index, model_name in enumerate(model_list, 1):
         sample_output['raw_answer_zeroshot'] = raw_answer_zeroshot   
         sample_output['raw_answer_zeroshot_with_knowledge'] = raw_answer_zeroshot_with_knowledge
         sample_output['raw_answer_zeroshot_cot'] = raw_answer_zeroshot_cot
-        
+
         sample_output['raw_answer_fewshot'] = raw_answer_fewshot 
         sample_output['raw_answer_fewshot_with_knowledge'] = raw_answer_fewshot_with_knowledge
         sample_output['raw_answer_fewshot_cot'] = raw_answer_fewshot_cot

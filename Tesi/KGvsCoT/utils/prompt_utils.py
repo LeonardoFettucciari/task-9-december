@@ -57,26 +57,26 @@ def prepare_prompt(sample,
 
   # 4/6 Few-shot with knowledge
   elif(few_shot and with_knowledge):
-    knowledge = "\n".join([f"{statement}" for statement in sample['statements']])
     shots = []
     for i, example in enumerate(examples, 1):
-      question = example['question']
-      choices = "\n".join([f"{label}. {choice}" for label, choice in zip(example['choices']['label'], example['choices']['text'])])
-      answer = example['answerKey']
-      knowledge = "\n".join([f"{statement}" for statement in example['statements']])
+      example_question = example['question']
+      example_choices = "\n".join([f"{label}. {choice}" for label, choice in zip(example['choices']['label'], example['choices']['text'])])
+      example_answer = example['answerKey']
+      example_knowledge = "\n".join([f"{statement}" for statement in example['statements']])
 
       shot = template_fewshot_with_knowledge.format(
           count=i,
-          question=question,
-          choices=choices,
-          knowledge=knowledge,
+          question=example_question,
+          choices=example_choices,
+          knowledge=example_knowledge,
           )
       
       shots += (
         [shot]
-        + [f"Answer: {answer}"]
+        + [f"Answer: {example_answer}"]
       )
 
+    knowledge = "\n".join([f"{statement}" for statement in sample['statements']])
     final_shot = template_with_knowledge.format(
       question=question,
       choices=choices,
@@ -95,19 +95,19 @@ def prepare_prompt(sample,
   elif(few_shot and cot):
     shots = []
     for i, example in enumerate(examples, 1):
-      question = example['question']
-      choices = "\n".join([f"{label}. {choice}" for label, choice in zip(example['choices']['label'], example['choices']['text'])])
-      answer = example['answerKey']
-      reasoning = example['reasoning']
+      example_question = example['question']
+      example_choices = "\n".join([f"{label}. {choice}" for label, choice in zip(example['choices']['label'], example['choices']['text'])])
+      example_answer = example['answerKey']
+      example_reasoning = example['reasoning']
 
       shot = template_fewshot_cot.format(
           count=i,
-          question=question,
-          choices=choices
+          question=example_question,
+          choices=example_choices
           )
       assistant_shot = template_fewshot_cot_assistant.format(
-        reasoning=reasoning,
-        answer=answer
+        reasoning=example_reasoning,
+        answer=example_answer
       )
       
       shots += (
@@ -131,19 +131,19 @@ def prepare_prompt(sample,
   elif(few_shot):
     shots = []
     for i, example in enumerate(examples, 1):
-      question = example['question']
-      choices = "\n".join([f"{label}. {choice}" for label, choice in zip(example['choices']['label'], example['choices']['text'])])
-      answer = example['answerKey']
+      example_question = example['question']
+      example_choices = "\n".join([f"{label}. {choice}" for label, choice in zip(example['choices']['label'], example['choices']['text'])])
+      example_answer = example['answerKey']
 
       shot = template_fewshot.format(
           count=i,
-          question=question,
-          choices=choices,
+          question=example_question,
+          choices=example_choices,
           )
       
       shots += (
         [shot]
-        + [f"Answer: {answer}"]
+        + [f"Answer: {example_answer}"]
       )
 
     final_shot = template.format(
