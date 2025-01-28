@@ -148,15 +148,12 @@ for model_index, model_name in enumerate(model_list, 1):
     # Save output
     with open(f"Tesi/KGvsCoT/output/{model_name.split('/')[1]}.tsv", mode="w", newline="", encoding="utf-8") as file:
         # Re-arrange output columns order as preferred
-        fieldnames = ['id', 'question', 'choices', 'gold_truth',
+        fieldnames = ['id', 'question', 'choices',
+                      'knowledge', 'raw_answer_zeroshot_cot', 'raw_answer_fewshot_cot',
+                      'gold_truth',
                       
                       'answer_zeroshot', 'answer_zeroshot_with_knowledge', 'answer_zeroshot_cot',
-                      'answer_fewshot', 'answer_fewshot_with_knowledge', 'answer_fewshot_cot',
-
-                      'knowledge', 'cot_zeroshot_generated', 'cot_fewshot_generated',
-
-                      'raw_answer_zeroshot', 'raw_answer_zeroshot_with_knowledge', 'raw_answer_zeroshot_cot',
-                      'raw_answer_fewshot', 'raw_answer_fewshot_with_knowledge', 'raw_answer_fewshot_cot']
+                      'answer_fewshot', 'answer_fewshot_with_knowledge', 'answer_fewshot_cot',]
         
         tsv_writer = csv.DictWriter(file, fieldnames=fieldnames, delimiter="\t")
         tsv_writer.writeheader()
